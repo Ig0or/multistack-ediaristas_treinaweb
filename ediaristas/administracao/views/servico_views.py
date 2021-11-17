@@ -1,6 +1,6 @@
 from django.shortcuts import redirect, render
-from .forms import ServicoForm
-from .models import Servico
+from ..forms import ServicoForm
+from ..models import Servico
 
 def cadastrar_servico(request):
     if request.method == 'POST':
